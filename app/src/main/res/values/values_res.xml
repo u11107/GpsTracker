@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="loc_time_update_name">
+        <item>3 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+    </string-array>
+
+    <string-array name="loc_time_update_values">
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="loc_color_name">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="loc_color_values">
+        <item>#FFFC0101</item>
+        <item>#0066cc</item>
+        <item>#FF000000</item>
+    </string-array>
+</resources>

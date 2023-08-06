@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Location">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="3000"
+            android:title="Update time"
+            app:entries="@array/loc_time_update_name"
+            app:entryValues="@array/loc_time_update_values"
+            app:icon="@drawable/baseline_access_time_24"
+            app:key="update_time"
+            app:summary="Location update time." />
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="#999999"
+            android:title="Color track"
+            app:entries="@array/loc_color_name"
+            app:entryValues="@array/loc_color_values"
+            app:icon="@drawable/circle"
+            app:key="update_color"
+            app:summary="Select route color." />
+
+    </PreferenceCategory>
+</PreferenceScreen>
